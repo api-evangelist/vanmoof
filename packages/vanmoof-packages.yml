@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: npm + PyPI registry search (2026-07-21)
+notes: VanMoof publishes no official client SDKs. The packages below are community-built,
+  reverse-engineered libraries for the private VanMoof app/bike API and Bluetooth
+  surface; none are first-party. The VanMoof GitHub org (github.com/VanMoof) hosts
+  Odoo forks and internal tooling (including gopenapi, a Go OpenAPI v3 utility) but
+  no published API client libraries.
+packages:
+- language: python
+  registry: pypi
+  name: pymoof
+  url: https://pypi.org/project/pymoof/
+  install: pip install pymoof
+  official: false
+  notes: Community library to connect to VanMoof S3/X3 bikes over Bluetooth.
+- language: javascript
+  registry: npm
+  name: vanmoof-webapi.js
+  url: https://www.npmjs.com/package/vanmoof-webapi.js
+  install: npm install vanmoof-webapi.js
+  official: false
+  notes: Community read-only client for the (private) VanMoof web API.
+- language: javascript
+  registry: npm
+  name: vanbike-lib
+  url: https://www.npmjs.com/package/vanbike-lib
+  install: npm install vanbike-lib
+  official: false
+  notes: Community library to access VanMoof bikes without the official app.

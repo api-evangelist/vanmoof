@@ -1,8 +1,24 @@
 aid: vanmoof
-name: vanmoof
-description: vanmoof is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: VanMoof
+description: VanMoof is an Amsterdam-based e-bike company that designs and sells smart
+  electric city bikes with integrated anti-theft technology, GPS tracking, and a companion
+  rider app. Originally backed by Balderton Capital and relaunched after its 2023
+  restructuring, VanMoof operates a connected-bike platform, but publishes no public
+  developer API — the app and bike APIs are private, and existing client libraries
+  are community-built and reverse-engineered.
 url: https://raw.githubusercontent.com/api-evangelist/vanmoof/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets-cms.vanmoof.com/V_logo_SEO_192x192_5905aa9040.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -10,10 +26,21 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- E-Bikes
+- Electric Bikes
+- Mobility
+- Cycling
+- Consumer Hardware
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,29 @@ maintainers:
 common:
 - type: Website
   url: https://www.vanmoof.com/en-GB
+- type: Blog
+  url: https://www.vanmoof.com/blog/en
+- type: Support
+  url: https://help.vanmoof.com/hc/en-us
+- type: GitHubOrganization
+  url: https://github.com/VanMoof
+- type: Login
+  url: https://www.vanmoof.com/my-vanmoof/home
+- type: TermsOfService
+  url: https://www.vanmoof.com/en-NL/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.vanmoof.com/en-NL/privacy-policy
+- type: VulnerabilityDisclosure
+  url: security/vanmoof-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.vanmoof.com/en-NL/responsible-disclosure-policy
+- type: DomainSecurity
+  url: security/vanmoof-domain-security.yml
+- type: WellKnown
+  url: well-known/vanmoof-well-known.yml
+- type: SecurityTxt
+  url: well-known/vanmoof-security.txt
+- type: Packages
+  url: packages/vanmoof-packages.yml
+- type: LLMsTxt
+  url: llms/vanmoof-llms.txt

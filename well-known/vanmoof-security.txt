@@ -1,0 +1,5 @@
+Contact: mailto:security@vanmoof.com
+Expires: 2027-12-31T10:30:00Z
+Hiring: https://jobs.vanmoof.com
+Policy: https://www.vanmoof.com/en-NL/responsible-disclosure-policy
+Preferred-Languages: EN
