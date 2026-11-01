@@ -1,4 +1,4 @@
-# vanmoof
+# VanMoof
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-vanmoof is a company surfaced as a portfolio company of balderton-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+VanMoof is an Amsterdam-based e-bike company that designs and sells smart electric city bikes with integrated anti-theft technology, GPS tracking, and a companion rider app. Originally backed by Balderton Capital and relaunched after its 2023 restructuring, VanMoof operates a connected-bike platform, but publishes no public developer API — the app and bike APIs are private, and existing client libraries are community-built and reverse-engineered.
 
-Backed by: balderton-capital — https://www.vanmoof.com/en-GB
+**Areas:** Company · E-Bikes · Electric Bikes · Mobility · Cycling · Consumer Hardware · IoT
+
+## VanMoof on APIs.io
+
+Everything profiled for VanMoof is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/vanmoof/](https://apis.io/providers/vanmoof/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Vanmoof Domain Security](https://apis.io/security/vanmoof/vanmoof-domain-security/)
+- [Vanmoof Vulnerability Disclosure](https://apis.io/security/vanmoof/vanmoof-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.vanmoof.com/en-GB)
+- [Support](https://help.vanmoof.com/hc/en-us)
+- [Blog](https://www.vanmoof.com/blog/en)
+- [Security](https://www.vanmoof.com/en-NL/responsible-disclosure-policy)
+- [Terms of service](https://www.vanmoof.com/en-NL/terms-and-conditions)
+- [Privacy policy](https://www.vanmoof.com/en-NL/privacy-policy)
+- [GitHub](https://github.com/VanMoof)
+
+## API Evangelist rating
+
+**Kin Score 14.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vanmoof/](https://apis.io/providers/vanmoof/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for VanMoof: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/vanmoof/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
